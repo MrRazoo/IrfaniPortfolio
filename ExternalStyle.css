@@ -1,0 +1,71 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+/* This is Profile Div Section */
+.profileDiv{
+    width: 100%;
+    height: 300px;
+    position: relative;
+    margin: 0px;
+
+    
+}
+.profileDiv div{ 
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    width: 100%;
+    height: 180px;
+    background-color: rgb(46, 53, 66);
+    
+    
+    
+}
+.profileDiv img{
+    position: absolute;
+    bottom: 25%;
+    left: 2%;
+    z-index: 2;
+}
+.profileDiv h1{
+    position: absolute;
+    /* left: 2%; */
+    /* font-family: "Bitcount Prop Single Ink", system-ui; */
+    color: aliceblue;
+    width: 200px;
+    text-align: center;
+    z-index: 4;
+    margin-left: 250px;
+    margin-top: 80px;
+    font-size: 42px;
+
+}
+
+/* This is Summary Div Section */
+.summaryDiv{
+
+}
+.summaryDiv h2{
+    
+}
+.summaryDiv p{
+}
+
+/* This is Education Div Section */
+.EducationDiv{
+
+}
+
+/* This is Experience Div Section */
+.ExperienceDiv{
+
+}
+
+/* This is Skills Div Section */
+.SkillsDiv{
+
+}
+
